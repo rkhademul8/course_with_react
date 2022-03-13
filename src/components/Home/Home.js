@@ -1,14 +1,28 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import Developer from '../Developer/Developer';
 
 const Home = () => {
-    const [cousers, setCourse]=useState([])
 
+    // ---------------------- course data fetch --------------------
+    const [cousers, setCourse]=useState([])
     useEffect(()=>{
         fetch('./api.JSON')
         .then(res=>res.json())
         .then(data=>setCourse(data))
     },[])
+
+
+     // ---------------------- instroctor data fetch --------------------
+     const [instructors,setinstructor ]=useState([])
+     useEffect(()=>{
+         fetch('./my_api.JSON')
+         .then(res=>res.json())
+         .then(data=>setinstructor(data))
+     },[])
+ 
+
+    
     return (
 
         <div className='container mx-auto'>
@@ -65,7 +79,26 @@ const Home = () => {
                           course part end
                           ------------------------------------*/}
 
+               {/* -----------------------------------
+                          Instructor  part start
+                          ------------------------------------*/}
 
+                <div>
+                <h1 className='text-3xl text-center font-bold'>Our Expert Trainers</h1>
+                <p className='text-sm text-gray-400 text-center'>Replenish man have thing gathering lights yielding shall you</p>
+
+                <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 w-4/5  mx-auto py-10">
+                
+                    {
+                        instructors.map(instructor=> <Developer key={instructor.id} instructor={instructor}></Developer>)
+                    }
+                    
+                </div>
+            </div>
+
+              {/* -----------------------------------
+                          Instructor part end
+                          ------------------------------------*/}
 
         </div>
     );

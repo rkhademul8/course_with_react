@@ -1,0 +1,9 @@
+.footer-section{
+    background-color: #808080;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-section h1,p{
+    color: #fff;
+}

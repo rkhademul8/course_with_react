@@ -1,7 +1,6 @@
 import React from 'react';
 import './Course.css'
 const Course = (props) => {
-    console.log(props.course);
 
     const {title,img,decription,price,duration}=props.course
     return (
