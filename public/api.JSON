@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Bootcamp  React",
+      "img": "https://as1.ftcdn.net/v2/jpg/03/79/06/44/1000_F_379064415_yziUCkqT3E6X18fJH1Rp7hnaGUqQcm4Q.jpg",
+      "decription": " ReactJS offers graceful solutions to some of front-end programming’s most persistent issues, allowing you to build dynamic and interactive web apps with ease. It’s fast, scalable, flexible, powerful, and has a robust developer community that’s rapidly growing. There’s never been a better time to learn React.You’ll develop a strong understanding of React’s most essential concepts: JSX, class and function components, props, state, lifecycle methods, and hooks. You’ll be able to combine these ideas in React’s modular programming style.",
+      "price": 6000,
+      "duration": "6 Month"
+    },
+    {
+      "id": 2,
+      "title": "Web Development Bootcamp  (Python and Django) ",
+      "img": "https://img.freepik.com/free-vector/programmer-working-flat-style_52683-15041.jpg?w=826",
+      "decription": " Welcome to the world of Django (pronounced like JANG-go with a silent D)! Get introduced to an open-source web development framework supported by the Django Software Foundation. Django is written in Python and provides an opinionated approach to web development meaning you’ll know how projects are structured and have a general set of guidelines for how to bring your apps to life. Django comes with a lot of tools already provided, so you can pick and choose what you need to get the job done.",
+      "price": 8000,
+      "duration": "6 Month"
+    },
+    {
+      "id": 3,
+      "title": "Web Development Bootcamp  Laravel",
+      "img": "https://img.freepik.com/free-vector/programming-working-concept-modern-flat-design-developer-programs-html-php-languages_9209-6822.jpg?w=900",
+      "decription": " Laravel is an open-source PHP framework, which is robust and easy to understand. It follows a model-view-controller design pattern. Laravel reuses the existing components of different frameworks which helps in creating a web application. The web application thus designed is more structured and pragmatic.Laravel offers a rich set of functionalities which incorporates the basic features of PHP frameworks like CodeIgniter, Yii and other programming languages like Ruby on Rails. Laravel has a very rich set of features which will boost the speed of web development.If you are familiar with Core PHP and Advanced PHP, Laravel will make your task easier. It saves a lot time if you are planning to develop a website from scratch. Moreover, a website built in Laravel is secure and prevents several web attacks.",
+      "price": 5000,
+      "duration": "6 Month"
+    },
+    {
+      "id": 4,
+      "title": "Graphics and Motion Design",
+      "img": "https://img.freepik.com/free-vector/flat-world-graphics-day-illustration_23-2148880103.jpg?w=826",
+      "decription": " Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience",
+      "price": 7000,
+      "duration": "6 Month"
+    },
+    {
+      "id": 5,
+      "title": "Professional Web Design",
+      "img": "https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1380",
+      "decription": "Image result for web design course A Web Designing course belongs to the field of Computer Science and IT. It enables students to learn various techniques, tools and programming languages in order to create and maintain web pages. There is an array of courses in this field ranging from certificate and Diploma courses to UG, PG and PGDM programs.",
+      "price": 5000,
+      "duration": "6 Month"
+    }
+  ]

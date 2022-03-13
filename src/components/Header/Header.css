@@ -1,0 +1,18 @@
+.header-section{
+    background-color: gray;
+    padding: 15px 0px;
+    text-align: center;
+}
+.header-section a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+.header-section a:hover{
+    background-color: rgb(190, 187, 187);
+    padding: 15px 10px;
+}
